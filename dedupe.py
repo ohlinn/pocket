@@ -7,7 +7,7 @@ import webbrowser, sys
 consumer_key = sys.argv[1]
 
 request_token = Pocket.get_request_token(
-    consumer_key=consumer_key,
+    consumer_key=49226-cff3ee125d9d9c19cfc4a6bf,
     redirect_uri='http://google.com/',
 )
 auth_url = Pocket.get_auth_url(
