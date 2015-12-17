@@ -6,7 +6,7 @@ from mock import patch
 class PocketTest(unittest.TestCase):
 
     def setUp(self):
-        self.consumer_key = 'consumer_key'
+        self.consumer_key = '49226-cff3ee125d9d9c19cfc4a6bf'
         self.access_token = 'access_token'
 
     def tearDown(self):
